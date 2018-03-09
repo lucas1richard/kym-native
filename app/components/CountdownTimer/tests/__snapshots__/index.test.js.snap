@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountdownTimer should render without blowing up 1`] = `
+<styled.div>
+  <Styled(styled.span)>
+    3
+     days 
+  </Styled(styled.span)>
+  <Styled(styled.span)>
+    14
+     hours 
+  </Styled(styled.span)>
+</styled.div>
+`;
+
+exports[`<CountdownTimer should show minutes and seconds 1`] = `
+<styled.div>
+  <Styled(styled.span)>
+    40
+     minutes 
+  </Styled(styled.span)>
+  <Styled(styled.span)>
+    40
+     seconds 
+  </Styled(styled.span)>
+</styled.div>
+`;

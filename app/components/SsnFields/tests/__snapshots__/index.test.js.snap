@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SsnFields should render without blowing up 1`] = `
+<Field
+  component={[Function]}
+  name="ssn"
+  validate={[Function]}
+/>
+`;

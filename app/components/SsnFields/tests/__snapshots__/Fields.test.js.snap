@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Fields /> should render without blowing up 1`] = `
+<styled.div>
+  <Styled(styled.div)
+    error={false}
+    valid={false}
+  >
+    SSN
+  </Styled(styled.div)>
+  <styled.div>
+    <Styled(styled.input)
+      error={false}
+      maxLength={3}
+      onChange={[Function]}
+      valid={false}
+      value=""
+    />
+    <Styled(styled.input)
+      error={false}
+      innerRef={[Function]}
+      maxLength={2}
+      onChange={[Function]}
+      valid={false}
+      value=""
+      withRef={true}
+    />
+    <Styled(styled.input)
+      error={false}
+      innerRef={[Function]}
+      maxLength={4}
+      onChange={[Function]}
+      valid={false}
+      value=""
+      withRef={true}
+    />
+  </styled.div>
+  <styled.div
+    show={false}
+  >
+    Not a valid SSN
+  </styled.div>
+</styled.div>
+`;
+
+exports[`<Fields /> should render without blowing up 2`] = `
+<styled.div>
+  <Styled(styled.div)
+    error="Error"
+    valid={false}
+  >
+    SSN
+  </Styled(styled.div)>
+  <styled.div>
+    <Styled(styled.input)
+      error="Error"
+      maxLength={3}
+      onChange={[Function]}
+      valid={false}
+      value=""
+    />
+    <Styled(styled.input)
+      error="Error"
+      innerRef={[Function]}
+      maxLength={2}
+      onChange={[Function]}
+      valid={false}
+      value=""
+      withRef={true}
+    />
+    <Styled(styled.input)
+      error="Error"
+      innerRef={[Function]}
+      maxLength={4}
+      onChange={[Function]}
+      valid={false}
+      value=""
+      withRef={true}
+    />
+  </styled.div>
+  <styled.div
+    show="Error"
+  >
+    Not a valid SSN
+  </styled.div>
+</styled.div>
+`;

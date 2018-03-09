@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TitleHeader /> should render without blowing up 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Title
+  </Styled(styled.h3)>
+  <styled.div
+    color="halfOpacityBlue"
+  >
+    Description
+  </styled.div>
+</styled.div>
+`;

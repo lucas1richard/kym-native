@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo /> should render without blowing up 1`] = `
+<div>
+  <Styled(Img)
+    alt="Grand"
+    src="IMAGE_MOCK"
+  />
+  <Styled(Img)
+    alt="Grand"
+    src="IMAGE_MOCK"
+  />
+</div>
+`;
+
+exports[`<Logo /> should render without blowing up 2`] = `
+<div>
+  <Styled(Img)
+    alt="Grand"
+    src="IMAGE_MOCK"
+  />
+  <Styled(Img)
+    alt="Grand"
+    src="IMAGE_MOCK"
+  />
+</div>
+`;
